@@ -1,0 +1,28 @@
+# 合规化护栏（2026-06-24 建立）
+# 本知识库仅保留综合编译层（wiki/），不收录任何原著全文。
+
+# 原文档案目录（永不入库）
+raw/
+raw/**
+_books/
+
+# 提取/摄取脚本与中间产物（一次性工具，不入库）
+_tools/
+_source_repo/
+*.py
+!docs/**/*.py
+
+# PDF / epub 等受版权保护的源文件格式
+*.pdf
+*.epub
+*.mobi
+*.azw3
+
+# 临时与系统文件
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
